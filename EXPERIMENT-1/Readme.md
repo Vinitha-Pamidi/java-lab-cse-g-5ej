@@ -21,3 +21,47 @@ class DisplayDefaultPrimitiveType {
 ```
 # output:
 ![output](primitive.png)
+# 1b) Title: Find the Roots of Quadrdtic Equation
+```java
+import java.util.Scanner;
+class QuadraticEquation {
+    public static void main(String[] args ) {
+    Scanner sc =new Scanner(System.in);
+    System.out.println("enter value of a:");
+    double a= sc.nextDouble();
+    System.out.println("enter value of b:");
+    double b= sc.nextDouble();
+    System.out.println("enter value of c:");
+    double c= sc.nextDouble();
+    double D= b*b-4*a*c;
+     if(D>0) {
+     double x1 = (-b + Math.sqrt(D))/(2*a);
+     double x2 =(-b - Math.sqrt(D))/(2*a);
+     System.out.println("two real roots");
+     System.out.println("x1 =" +x1);
+     System.out.println("x2 =" +x2);
+}
+  else if(D==0){
+      double y= (-b/(2*a));
+      System.out.println("Roots are equal :");
+      System.out.println("y =" +y);
+}
+   else if(D<0) {
+        double z= -b/(2*a);
+        double img1 =Math.sqrt(-D)/(2*a);
+        System.out.println("Roots are complex:");
+        System.out.println("complex Roots of Roots1:" +z+ "+" +img1+"i");
+        System.out.println("complex Roots of Roots2:" +z+"-"+img1+"j");
+}
+ else {
+       System.out.println("Invalid choice:");
+}
+}
+}
+```
+## output:
+![case1](c1.png)
+
+![case2](c2.png)
+
+![case3](c3.png)
