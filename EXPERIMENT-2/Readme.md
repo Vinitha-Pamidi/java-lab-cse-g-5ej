@@ -80,4 +80,4 @@ class main {
 }
 ```
 ## output:
-![output](s2.png)
+![output](s3.png)
