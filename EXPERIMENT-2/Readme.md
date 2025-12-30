@@ -28,7 +28,7 @@ class Main {
 ## output:
 ![output](r1.png)
 
-## 2b) write a java program implement overloading.
+## 2b) Title: write a java program implement overloading.
 ## source code;
 ```java
 class Sum {
@@ -54,5 +54,30 @@ class Main {
 ## output:
 ![output](s1.png)
 
-
-
+## 2c) Title: write a java program to implement constructer.
+## source code;
+```java
+class student {
+  String sname;
+  int sage;
+  double smarks;
+  student(String name, int age, double marks) {
+    sname = name;
+    sage = age;
+    smarks = marks;
+  }
+  void display() {
+    System.out.println("Student name: " + sname);
+    System.out.println("Student age: " + sage);
+    System.out.println("Student marks: " + smarks);
+  }
+}
+class main {
+  public static void main(String[] args) {
+    student s = new student("dhanush",18,980);
+    s.display();
+  }
+}
+```
+## output:
+![output](s2.png)
