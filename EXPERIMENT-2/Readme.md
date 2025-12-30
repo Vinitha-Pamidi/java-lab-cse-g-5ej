@@ -74,7 +74,7 @@ class student {
 }
 class main {
   public static void main(String[] args) {
-    student s = new student("dhanush",18,980);
+    student s = new student("Rani",18,980);
     s.display();
   }
 }
