@@ -28,5 +28,31 @@ class Main {
 ## output:
 ![output](r1.png)
 
+## 2b) write a java program implement overloading.
+## source code;
+```java
+class Sum {
+    int sum(int a,int b) {
+        return a+b;
+     }
+     int sum(int a,int b ,int c){
+      return a+b+c;
+      }
+     double sum(double a,double b){
+       return a+b;
+}
+}
+class Main {
+  public static void main(String[] args) {
+   Sum s = new Sum();
+   System.out.println("sum of 2Integer :" +s.sum(36,46));
+   System.out.println("sum of 3Integer :" +s.sum(20,36,46));
+   System.out.println("sum of two real numbers :" +s.sum(30.465,15.675));
+}
+}
+```
+## output:
+![output](s1.png)
+
 
 
