@@ -54,7 +54,7 @@ import java.util.Scanner;
 }
 ```
 # output:
-![output](Fibonacci.png)
+![output](Fibonacci.jpeg)
 
 
 ``>
