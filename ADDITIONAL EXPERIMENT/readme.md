@@ -1,6 +1,6 @@
-#  ADDITIONAL EXPERIMENT-2;
+#  ADDITIONAL EXPERIMENT-2:
 ## 2)Title: Sum of the first nFibonacci numbers.
-## source code;
+## source code:
 ```java
 class Fibonacis {
     int firstNumber;
