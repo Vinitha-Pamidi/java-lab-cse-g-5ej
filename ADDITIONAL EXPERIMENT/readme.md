@@ -88,7 +88,7 @@ class SubStringInsert {
     }
 ```
 # output:
-![output](MainStrinng.png)
+![output](MainString.png)
 
 ## Additional Experiment-3
 ## 3)Title: To determine if a given number is palindrome or not.
