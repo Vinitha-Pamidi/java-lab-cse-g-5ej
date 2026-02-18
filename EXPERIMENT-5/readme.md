@@ -57,7 +57,7 @@ class TestSort {
 }
 ```
 # output
-!{output](5a.png)
+![output](5a.png)
 
 ## 5b)Title:Implements the Runtime Polymorphism.
 ## Source Code:
